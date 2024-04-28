@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio no JS</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JS Interno e Externo </h1>
+    <h2>Tipos de Saidas no JS</h2>
+    <br>
+    <h2> Interno </h2>
+    <h3 id="inner"></h3>
+    <h3>
+        <script>
+            document.write("Inserido com o write");
+        </script>
+    </h3>
+
+    <script>
+        alert("alerta no interno usando o JS ");
+        console.log("NO terminal pelo JS interno");
+        document.getElementById('inner').innerHTML = "Inserido no js interno <br> buscando o id e inserindo com o innerHTML";
+    </script>
+</body>
+
+</html>
