@@ -14,4 +14,4 @@ function paraCelsius(valorf) {
     return (5 / 9) * (valorf - 32);
 }
 
-alert(paraCelsius(70));
+//lert(paraCelsius(70));
