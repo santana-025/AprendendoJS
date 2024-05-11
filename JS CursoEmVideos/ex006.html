@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o dom e seus eventos</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        #texte {
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="texte">am </div>
+
+
+    <script>
+        var a = window.document.getElementById("texte");
+        a.addEventListener("mouseup", clicou);
+        a.addEventListener("mouseenter", entrou);
+        a.addEventListener("mousedown", segurou);
+        a.addEventListener("mouseout", saiu);
+        a.addEventListener("mousemove", moveu);
+        function clicou() {
+            a.innerText = "Clickou";
+            a.style.background = "Red";
+        }
+        function entrou() {
+            a.innerText = "Entrou"
+            a.style.background = "blue";
+        }
+        function segurou() {
+            a.innerText = "segurou"
+            a.style.background = "green";
+        }
+        function moveu() {
+            a.innerText = "moveu"
+            a.style.background = "white";
+        }
+        function saiu() {
+            a.innerText = "saiu"
+            a.style.background = "yellow";
+        }
+    </script>
+</body>
+
+</html>
