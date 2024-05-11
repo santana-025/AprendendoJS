@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        #vel {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Limite de Velocidade</h1>
+    <label for="vel"> Velocidade do carro :</label>
+    <input name="vel" id="vel" type="text">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
+
+
+
+    <script>
+        function calcular() {
+            let veltxt = window.document.querySelector("input#vel")
+            let divres = document.getElementById("res");
+            let velnumero = Number(veltxt.value)
+
+            if (velnumero > 60) {
+                divres.innerText = "Voçe Ultrapassou o limite de velocidade Multado. ";
+            } else {
+                divres.innerText = "Nada consta no sistema ";
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
