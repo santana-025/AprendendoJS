@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAAAS</title>
+</head>
+
+<body>
+    <ul id="lista1">
+        <li class="item"> Item 1</li>
+        <li class="item"> Item 2</li>
+        <li class="item"> Item 3</li>
+        <li class="item"> Item 4</li>
+    </ul>
+    <ul id="lista2">
+        <li class="item"> Item 5</li>
+        <li class="item"> Item 6</li>
+        <li class="item"> Item 7</li>
+        <li class="item"> Item 8</li>
+    </ul>
+
+
+    <script>
+        // Pegar todos os li com a classe item
+        var liall = window.document.getElementsByClassName("item");
+        console.log(liall);
+        // Pegar somente os da lista2
+        var liquery = window.document.querySelectorAll("#lista2 li");
+        console.log(liquery);
+
+    </script>
+</body>
+
+</html>
