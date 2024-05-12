@@ -4,20 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HORARIO DO DIA</title>
-    <link rel="stylesheet" href="modelo.css">
+    <title>Calculo de IDADE</title>
+    <link rel="stylesheet" href="Idade.css">
 </head>
 
 <body>
     <header>
-        <h1> Titulo</h1>
+        <h1> Verificador de IDADE</h1>
     </header>
     <section>
         <div>
-            TExte
+            <div>
+                <label for="idd"> Ano de Nascimento :</label>
+                <input type="number" name="idd" id="IDA">
+            </div>
+            <p>Sexo :
+                <input type="radio" name="sexo" id="sexM" checked>
+                <label for="sexM"> Masculino</label>
+
+                <input type="radio" name="sexo" id="sexF">
+                <label for="sexF">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="apertou()">
+            </p>
         </div>
-        <div>
-            TExte
+        <div id="Meio">
+            <div id="resu">
+                Resultado aqui
+            </div>
+            <div>foto aqui </div>
         </div>
 
     </section>
@@ -25,7 +41,7 @@
         <p>&copy; Jorge Santana </p>
     </footer>
 
-    <script src="modelo.js"></script>
+    <script src="Idade.js"></script>
 </body>
 
 </html>
