@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTAGEM</title>
+    <link rel="stylesheet" href="contagem.css">
+</head>
+
+<body>
+    <header>
+        <h1> Vamos Contar </h1>
+    </header>
+    <section>
+        <div id="pai">
+            <p><label for="inicio">Início :</label> <input type="number" name="Inicio" id="txti"></p>
+            <p><label for="passos">Passos :</label> <input type="number" name="Passos" id="txtp"></p>
+            <p><label for="final">Final :</label> <input type="number" name="Final" id="txtf"></p>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div>
+            <p id="resposta">Preparando a contagem...</p>
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Jorge Santana </p>
+    </footer>
+
+    <script src="contagem.js"></script>
+</body>
+
+</html>

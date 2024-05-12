@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(10, 166, 85);
+    font: normal 15pt arial;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+
+#pai {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    color: white;
+}
