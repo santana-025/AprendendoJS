@@ -4,28 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HORARIO DO DIA</title>
-    <link rel="stylesheet" href="modelo.css">
+    <title> Calculadora </title>
+    <link rel="stylesheet" href="calculadora.css">
 </head>
 
 <body>
     <header>
-        <h1> Titulo</h1>
+        <h1> Calculadora <br> Multiplicação</h1>
     </header>
     <section>
         <div>
-            TExte
+            <p><Label for="num"> Escolha um numero: </Label>
+                <input type="number" name="num" id="txtnumero">
+            </p>
         </div>
         <div>
-            TExte
+            <select name="res" id="resp" size="10">
+
+            </select>
         </div>
+        <input type="button" value="Calcular" onclick="calculando()">
 
     </section>
     <footer>
         <p>&copy; Jorge Santana </p>
     </footer>
 
-    <script src="modelo.js"></script>
+    <script src="calculadora.js"></script>
 </body>
 
 </html>
