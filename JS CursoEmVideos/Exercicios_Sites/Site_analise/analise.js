@@ -17,7 +17,7 @@ function Add() {
     } else {
         lista.push(num);
         addoption(num);
-        numero.innerText = " "
+        numero.innerText = ""
     }
 }
 function maiorvalor(l) {
@@ -38,8 +38,6 @@ function soma(l, qtd) {
 function media(s, q) {
     return s / q
 }
-
-
 function calcular() {
     if (numero.value.length == 0) {
         alert("Erro Impossivel analizar sem números.")
