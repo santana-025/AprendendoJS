@@ -17,6 +17,7 @@ function Add() {
     } else {
         lista.push(num);
         addoption(num);
+        numero.innerText = " "
     }
 }
 function maiorvalor(l) {
@@ -40,17 +41,25 @@ function media(s, q) {
 
 
 function calcular() {
-    let resposta = document.querySelector("div#res");
-    let quantidade = lista.length
-    let maxvalor = maiorvalor(lista);
-    let mimvalor = menorvalor(lista);
-    let somatorio = soma(lista, quantidade);
-    let med = media(somatorio, quantidade)
-    resposta.innerHTML = `
-    A Quantidade de itens adicionado foi : ${quantidade} <br>
-    O Maio Valor Cadastrado foi : ${maxvalor} <br>
-    O Menor Valor Cadastrado foi : ${mimvalor} <br>
-    A Soma de Todos os Valores foi : ${somatorio} <br>
-    A Media dos Valores foi : ${med} <br>
-    `
+    if (numero.value.length == 0) {
+        alert("Erro Impossivel analizar sem números.")
+    } else {
+        let resposta = document.querySelector("div#res");
+        let quantidade = lista.length
+        let maxvalor = maiorvalor(lista);
+        let mimvalor = menorvalor(lista);
+        let somatorio = soma(lista, quantidade);
+        let med = media(somatorio, quantidade)
+        resposta.innerHTML = `
+        A Quantidade de itens adicionado foi : ${quantidade} <br>
+        O Maio Valor Cadastrado foi : ${maxvalor} <br>
+        O Menor Valor Cadastrado foi : ${mimvalor} <br>
+        A Soma de Todos os Valores foi : ${somatorio} <br>
+        A Media dos Valores foi : ${med} <br>
+        `
+        numero.value = " "
+        numero.focus();
+    }
+
+
 }
