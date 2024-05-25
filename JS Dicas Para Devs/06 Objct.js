@@ -1,5 +1,5 @@
-const person = {        // Objetos em JS
-    primeiro_nome: "Jhon",
+const person = {        // Objetos em JS {}
+    primeiro_nome: "Jhon",  // Propriede : valor
     segundo_nome: "Deev",
     idade: "22",
     hobbies: ["Futebol", "Games", "Programação", "Violão"],
@@ -16,17 +16,18 @@ const person = {        // Objetos em JS
 //const hobbies = person.Hobbies;
 
 
-// Mesma coisa acima 
+// Mesma coisa acima tem que ter os mesmos nomes das propriedades do objeto
 //const { primeiro_nome, segundo_nome, idade, hobbies } = person
 
-// para renomear usando o destructin
+// para renomear usando o destructin >> primeiro_nome: primeiro,
 const {
     primeiro_nome: primeiro, segundo_nome, idade, hobbies,
     dog: nome, idade: idadedog, cor
 } = person
 
-// Adicionar mais propriedades forma
-//person.dogin = "Zoee"
+// Adicionar mais propriedades
+//person.dogin = "Zoee" pode ser assim ou direto la encima no objeto
+
 
 
 console.log(person.dog.idade)

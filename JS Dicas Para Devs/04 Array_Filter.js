@@ -3,6 +3,6 @@ const idades = [2, 8, 23, 65, 98, 41, 21];
 // Filter ele Cria uma nova lista com um filtro que passarmos 
 
 const idd = idades.filter(function (item) {
-    return item % 2 === 0
+    return item % 2 === 0   //(Tem que retorna algo)
 })
 console.log(idd)

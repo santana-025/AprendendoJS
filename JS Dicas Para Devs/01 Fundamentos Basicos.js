@@ -4,15 +4,28 @@
 
 // Variaveis
 
+// podemos declara uma função e depois atribuir o valor a ela
+let numeros;        // Declarando a variavel
+
+
+
+numeros = 12456;      //  atribuindo valores a ela
+// podemos tambem declarar varias de uma unica vez
+let nome, idade, carro;
+nome = "Jorge"
+idade = 22
+carro = "Fusca"
+
+
 // alert() Caixa de alerta     
-//c alert("Hello Word");
-var msge = "Hello Word"; // Global porem incada
+alert("Hello Word");
+var msge = "Hello Word"; // var Global porem incada
 //c alert(msg)
-let msg = "Hello word let"; // Não pode ser reatribuida, mais pode mudar o seu valor 
+let msg = "Hello word let"; // let  Não pode ser reatribuida, mais pode mudar o seu valor 
 msg = "Pode ser alterado" // funciona localmente ("Se estiver global, funciona global", "se tiver numa função, so tera ali na função")
-//c alert(msg) 
-const msgg = "Hello word Const" // Não pode ser reatribuida nem mudar o seu valor
-//c alert(msgg)
+alert(msg)
+const msgg = "Hello word Const" // Const Não pode ser reatribuida nem mudar o seu valor
+alert(msgg)
 
 // Todo texto é uma string
 
@@ -33,14 +46,15 @@ console.log(nomes.split(""))  // Sem Parametro ele separa letras Por Letras
 
 //Tipos de DADOS
 let Numeros = 7
-Numeros.toString() // Converte para string
+Numeros.toString() // Converte para string return "7"
 console.log(typeof Numeros.toString()) // Mostra o tipo do dados
 
 // Boleanos false e true
-console.log(2 == 4);
-console.log(2 == 2);
+console.log(2 == 4); //Falso
+console.log(2 == 2); //True
 //Null e Undefind
 const n = null      // Ele é vazia  
 const u = undefined // Não foi definida
 
+console.log(n, u); // Dessa forma conseguimos logar 2 coisas
 

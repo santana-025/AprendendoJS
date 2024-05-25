@@ -1,5 +1,5 @@
 const todos = [  //Caso que mais acontece, pode usar todos os metodos Map,Reduce,Filter
-    {
+    {           // um array com varios objectos dentro
         id: 1,
         descição: "Estudar Programação",
         completa: false,
@@ -16,4 +16,6 @@ const todos = [  //Caso que mais acontece, pode usar todos os metodos Map,Reduce
     }
 ]
 
-console.log(todos[2].descição) // Pegando a descrição do item 2 
+console.log(todos[2].descição) // Pegando a descrição do item 2
+// ou seja primeiro passa o indice como busca de array
+// depois passa a propriedade que esta querendo pegar o seu valor
