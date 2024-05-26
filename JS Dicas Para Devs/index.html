@@ -5,11 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: inline-block;
+            margin-top: 5%;
+            margin-left: 33%;
+            margin-right: 33%;
+            justify-content: center;
+        }
+
+        section {
+            border: 1px solid black;
+            height: 250px;
+            width: 250px;
+            margin: 10px;
+            display: flexbox;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            border-radius: 5%;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: left;
+        }
+
+        input {
+            display: block;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 85%;
+            text-align: left;
+        }
+
+
+        #mandar {
+            margin-top: 15px;
+            width: 87%;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+
+        #mandar:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+
+        .itens {
+            margin-top: 5px;
+            border-radius: 5%;
+            border: 1px solid black;
+        }
+
+        .kill {
+            padding-left: 10px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+    </style>
 </head>
 
 <body>
+    <section>
+        <h1 id="user">Add User</h1>
+        <label for="nome"> Nome:</label>
+        <input id="nome" type="text" name="nome">
+        <label for="email"> Email:</label>
+        <input id="email" type="email" name="email">
+        <input id="mandar" type="submit" value=" Submit ">
+    </section>
+    <ol class="kill">
+        <li class="itens"> Item 1</li>
+        <li class="itens"> Item 2</li>
+        <li class="itens"> Item 3</li>
+    </ol>
 
-    <script src="16 POO Class .js"></script>
+
+
+    <script src="20 Eventos.js"></script>
 </body>
 
 </html>
