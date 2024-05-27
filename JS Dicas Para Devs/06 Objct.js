@@ -10,14 +10,14 @@ const person = {        // Objetos em JS {}
     }
 }
 
-//const primeiro_nome = person.Primeiro_Nome;
-//const segundo_nome = person.Segundo_Nome;
-//const idade = person.Idade;
-//const hobbies = person.Hobbies;
+// const primeiro_nome = person.primeiro_Nome;
+// const segundo_nome = person.segundo_Nome;
+// const idade = person.idade;
+// const hobbies = person.hobbies;
 
 
 // Mesma coisa acima tem que ter os mesmos nomes das propriedades do objeto
-//const { primeiro_nome, segundo_nome, idade, hobbies } = person
+// const { primeiro_nome, segundo_nome, idade, hobbies } = person
 
 // para renomear usando o destructin >> primeiro_nome: primeiro,
 const {

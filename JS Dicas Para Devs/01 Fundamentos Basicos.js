@@ -1,4 +1,4 @@
-// Todos os navegadores so entende JavaScript !
+// Todos os navegadores só entende JavaScript !
 // (React Native) Aplicações Mobiles
 // (Electron) Aplicações Desktop
 
@@ -6,8 +6,6 @@
 
 // podemos declara uma função e depois atribuir o valor a ela
 let numeros;        // Declarando a variavel
-
-
 
 numeros = 12456;      //  atribuindo valores a ela
 // podemos tambem declarar varias de uma unica vez
@@ -33,7 +31,7 @@ msgg.length   // Quantidade de letras na msg
 console.log() // mostra no console
 const Primeiro_Nome = "Jhonn"
 const Segundo_Nome = "Deev"
-// Juntando Strings             + é ultilizado como concatenação junta duas strings
+// Juntando Strings       + é ultilizado como concatenação junta duas strings
 console.log('Meu nome é ' + Primeiro_Nome + Segundo_Nome) // Return : Meu nome é Jhonn Deev
 // Usando Template Strings 
 console.log(`Meu nome é ${Primeiro_Nome} ${Segundo_Nome}`) // Return : Meu nome é Jhonn Deev

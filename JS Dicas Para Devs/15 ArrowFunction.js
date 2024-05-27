@@ -1,6 +1,6 @@
-// Temos que Declarar ela dentro de uma função ex:
+// Temos que Declarar ela dentro de uma variavel ex:
 // Retira o nome Function 
-// (parametros)  +   =>  +   {Bloco de codigos} 
+// (parametros)  +   =>  +   {Bloco de codigos} ou Return
 const somaArrow = (a = 1, b = 1) => {
     console.log(a, b);
     return a + b

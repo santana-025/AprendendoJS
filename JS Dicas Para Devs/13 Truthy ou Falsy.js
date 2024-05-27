@@ -12,12 +12,13 @@ semdefinir = undefined // undefined é False
 
 const lista = [];         // Array Vazio é True
 const objt = {};          // objt Vazio é True
+
 console.log(!!lista, !!objt)
-// para chegar se a lista está vazia
+// para checsar se a lista está vazia
 if (lista.length > 0) {     // se a quantidade de itens na lista 
     console.log(lista)      // é maior que 0
 }
 
-// Para inverter o Boleano atual usase o >> !
+// Para inverter o Boleano atual usase o >> ! na frente do item
 // Se era falso passa a ser True
 // Se era True passa a ser False

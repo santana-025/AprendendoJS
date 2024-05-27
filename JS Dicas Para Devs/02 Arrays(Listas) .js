@@ -3,7 +3,7 @@ const nomes = ["Jorge", "João", 2, true] // Lista com qualquer valor dentro [ ]
 console.log(nomes[3]); // Basta passar o indice do elemento sempre comerça em 0
 nomes.push("Pedro")    // Adiciona valor no final da lista 
 nomes.unshift("22")    // Adiciona no inicio qualquer valor
-nomes.pop()            // Remove o ultimo parametro 
+nomes.pop()            // Remove o ultimo parametro e retorna ele 
 nomes.shift()          // Remove o Primeiro
 nomes[2] = "Jhonn"     // Muda os dados do indice especificado
 

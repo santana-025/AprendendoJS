@@ -23,7 +23,7 @@ class Person {          // classe pessoa
 }
 
 // Criando pessoa1
-const pessoa1 = new Person("Jorge", "Dev", 22); // Sempre que usar new para ter acesso as propriedades
+const pessoa1 = new Person("Jorge", "Dev", 22); // Sempre que usar new para ter acesso as propriedades e ao this
 console.log(Person.saudacoes()) // Como é um metodo statico não pode usar dessa forma >  pessoa1.saudacoes()
 console.log(pessoa1.nomecompleto()) // Nome completo da pessoa 1
 console.log(pessoa1.falando()) // Pessoa 1 Falando
