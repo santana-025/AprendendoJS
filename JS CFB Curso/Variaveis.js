@@ -1,5 +1,9 @@
 // console.log("Olá Mundo");
 
+// Formas para criação de nomes de variaveis
+//SnakeCase = nome_Jorge
+//CamelCase = nomeJorge
+
 "use strict"// Modo Estrito Algumas linguagem so funciona nesse modo
 nome = "Jorge"; // no modo Restrito funciona normal (tem varias outras vantagens)
 
