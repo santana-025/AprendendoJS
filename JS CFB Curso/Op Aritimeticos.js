@@ -21,4 +21,9 @@ console.log(num1 -= 1);      //num1 = 3       (Decremento +1)
 //  ++ ou -- nesse caso remove ou adiciona apenas 1 
 
 
+// - antes do numero serve como inversão 
+// -10 passa a ser 10
 
+let n = -10;
+let x = -n;
+console.log(x); // retorna 10

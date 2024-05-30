@@ -18,3 +18,4 @@ console.log(n);
 // o n++ ele adiciona 1
 // console.log(n++); = 10 e ai ele incrementa
 // se colocarmos o console.log(n) ai ele retorna 11 
+
