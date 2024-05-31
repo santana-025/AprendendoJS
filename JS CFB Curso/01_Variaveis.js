@@ -32,7 +32,7 @@ mudar conteudo  : sim, Sempre que quiser
 
 const           = Uso Local , Funciona no bloco de codigo que está, e os que foram criados denrtro dele 
 icada           : Não
-redeclaravel    : Não
+redeclaravel    : Não'
 mudar conteudo  : Não
 */
 
