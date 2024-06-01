@@ -5,7 +5,7 @@ function canal() {
 
 let nome = canal();
 console.log(canal()); // Dentro de um console.log
-console.log(nome);    // De dentro de uma função  
+console.log(nome);    // De dentro de uma variavel 
 
 // Podemos ter mais de um retorno 
 // Porem se for caso de condições 

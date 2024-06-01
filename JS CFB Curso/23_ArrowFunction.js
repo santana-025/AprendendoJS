@@ -8,6 +8,6 @@ console.log(somaa(5, 5));
 const str = strg => { return strg };
 console.log(str("Jhon"));
 
-// Sem a palavra chava return
+// Sem a palavra chave return
 const add = n => n + 2;
 console.log(add(10));
